@@ -62,10 +62,8 @@ export default function FormComponent() {
                 <div id="form-groups">
 
                     <FormGroup sx={{ display: "flex", flexDirection: "column", gap: "20px", marginTop: "5px" }}>
-                        <div className="name-email-wrapper">
-                            <TextField id="name" label="Nome" variant="outlined" required />
-                            <TextField id="email" label="E-mail" variant="outlined" />
-                        </div>
+                        <TextField id="name" label="Nome" variant="outlined" required />
+                        <TextField id="email" label="E-mail" variant="outlined" />
                         <TextField id="subject" label="Assunto. Ex: orçamento" variant="outlined" required />
                         <TextField multiline id="" label="Mensagem" variant="outlined" required />
                         <div onClick={() => { alert("As your brand new Junior Developer, I'm looking forward to be part of this team!"); (window.location.href = '/') }}

@@ -141,6 +141,10 @@ margin: 10vh;
         text-align: justify;
 
     }
+
+    #form-groups{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 800px){
@@ -150,7 +154,7 @@ margin: 10vh;
     overflow-x: hidden;
 
     .MuiOutlinedInput-root{
-        width: 320px;
+        width: 100% ;
         margin-bottom: 10px;
 
     }
@@ -163,11 +167,24 @@ margin: 10vh;
         padding: 0;
         margin: 0;
         width: 100%;
-        
+    }
+    
+    #name, #email, #subject{
+        width: 100%;
+    }
+    .MuiFormControl-root{
+        width: 90%;
+    }
+    .MuiFormGroup-root, #name-email-wrapper{
+        padding: 25px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .css-1e2khdg-MuiFormGroup-root{
-        width: 90% ;
-        padding: 25px;
+        width: 100% ;
     }
     .css-f9eaqo-MuiPaper-root-MuiAppBar-root{
         width: 90%;
