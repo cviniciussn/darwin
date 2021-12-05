@@ -168,7 +168,7 @@ margin: 10vh;
         padding: 0;
         width: 375px;
     }
-    @media(max-width: 320px){
+    @media(min-width: 320px){
         #bird{
         display: none;
     }
