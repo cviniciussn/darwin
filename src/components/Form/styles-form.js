@@ -149,6 +149,12 @@ margin: 10vh;
     padding: 0;
     overflow-x: hidden;
 
+    .MuiOutlinedInput-root{
+        width: 320px;
+        margin-bottom: 10px;
+
+    }
+
     #bird{
         display: none;
     }
