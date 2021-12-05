@@ -9,6 +9,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 
+
 background-color: transparent;
 border: 10px solid;
 border-image-slice:1;

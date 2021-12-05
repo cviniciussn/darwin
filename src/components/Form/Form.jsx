@@ -68,7 +68,12 @@ export default function FormComponent() {
                         </div>
                         <TextField id="subject" label="Assunto. Ex: orçamento" variant="outlined" required />
                         <TextField multiline id="" label="Mensagem" variant="outlined" required />
-                        <FilledButton text='Enviar'></FilledButton>
+                        <div onClick={() => { alert("As your brand new Junior Developer, I'm looking forward to be part of this team!"); (window.location.href = '/') }}
+                        >
+                            <FilledButton text='Enviar' type='submit'
+                            ></FilledButton>
+
+                        </div>
                     </FormGroup>
                 </div>
             </div>

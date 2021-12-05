@@ -36,7 +36,7 @@ p{
     .logo{
         /* border: solid 1px red; */
         min-width: 370px;
-        max-width: 380px;
+        max-width: 370px;
         height: 460px;
         > img{
             width: 100%;
@@ -125,7 +125,7 @@ footer{
 	padding-left: 10vh;
 }
 
-@media(max-width: 415px){
+@media screen and (max-width: 415px){
   width: 375px;
   padding: 0;
   margin: 0;
@@ -137,6 +137,14 @@ footer{
     padding: 0;
     overflow-x: hidden;
 
+  }
+  .logo{
+    width: 375px;
+      height: 375px;
+    >img{
+      width: 375px;
+      height: 375px;
+    }
   }
   .paragraph{
     margin-top: 25vh;

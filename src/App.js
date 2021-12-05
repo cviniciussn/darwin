@@ -19,7 +19,7 @@ height: 220vh;
 background-color: #262626;
 color: #FCFCFC;
 font-family: 'Open Sans', sans-serif;
-min-width: 425px;
+min-width: 375px;
 
 overflow-x: hidden;
 }

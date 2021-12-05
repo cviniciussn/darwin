@@ -159,18 +159,16 @@ margin: 10vh;
         
     }
     .css-1e2khdg-MuiFormGroup-root{
+        width: 375px ;
         padding: 25px;
-        #name, #email{
-            width: 375px;
-        }
     }
     .css-f9eaqo-MuiPaper-root-MuiAppBar-root{
-        width: 415px;
+        width: 375px;
     }
     .css-hz1bth-MuiDialog-container{
         margin-left: 0;
         padding: 0;
-        width: 100%;
+        width: 375px;
     }
 }
 `

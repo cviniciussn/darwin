@@ -32,13 +32,14 @@ export default function FullScreenDialog() {
                 <FilledButton text='Contate-nos' />
             </div>
 
-            <Dialog
-                className="w-auto p-3"
+            <Dialog id='dialog'
+                // className="w-auto p-3"
                 open={open}
                 onClose={handleClose}
                 TransitionComponent={Transition}
             >
-                <AppBar sx={{ position: 'relative', backgroundColor: "black" }}>
+                <AppBar
+                    sx={{ position: 'relative', backgroundColor: "black" }}>
                     <Toolbar
                         sx={{ width: "100%" }}
                     >
