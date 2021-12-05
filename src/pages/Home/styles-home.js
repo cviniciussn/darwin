@@ -125,8 +125,8 @@ footer{
 	padding-left: 10vh;
 }
 
-@media screen and (max-width: 415px){
-  width: 375px;
+@media screen and (max-width: 800px){
+  width: 90%;
   padding: 0;
   margin: 0;
 
@@ -159,6 +159,28 @@ footer{
 padding: 0;
   }
 
+}
+
+@media screen and (max-width: 375px){
+  .paragraph{
+    margin-top: 50vh;
+    width: 50%;
+
+    h1{
+      font-size: 32px;
+    }
+  }
+}
+
+@media (width:320px){
+  .paragraph{
+    margin-top: 70vh;
+    width: 50%;
+
+    h1{
+      font-size: 32px;
+    }
+  }
 }
 
 `

@@ -143,35 +143,33 @@ margin: 10vh;
     }
 }
 
-@media(max-width: 415px){
-    width: 375px;
+@media screen and (max-width: 800px){
+    width: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 
+    #bird{
+        display: none;
+    }
 
     #form, #form-groups, .css-1e2khdg-MuiFormGroup-root{
         padding: 0;
         margin: 0;
-        width: 375px;
+        width: 100%;
         
     }
     .css-1e2khdg-MuiFormGroup-root{
-        width: 375px ;
+        width: 90% ;
         padding: 25px;
     }
     .css-f9eaqo-MuiPaper-root-MuiAppBar-root{
-        width: 375px;
+        width: 90%;
     }
     .css-hz1bth-MuiDialog-container{
         margin-left: 0;
         padding: 0;
-        width: 375px;
-    }
-    @media(min-width: 320px){
-        #bird{
-        display: none;
-    }
+        width: 90%;
     }
 }
 `
