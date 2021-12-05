@@ -5,15 +5,15 @@
     height: fit-content !important;
 }
 
-@media screen and (max-width:415px) {
+@media screen and (max-width:320px) {
     .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
         padding: 0;
         margin: 0;
-        width: 375px;
+        width: 320px;
     }
     
     header{
-        width: 375px !important;
+        width: 320px !important;
         padding: 0 !important;
     }
     

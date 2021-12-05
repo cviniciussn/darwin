@@ -149,9 +149,7 @@ margin: 10vh;
     padding: 0;
     overflow-x: hidden;
 
-    #bird{
-        display: none;
-    }
+
     #form, #form-groups, .css-1e2khdg-MuiFormGroup-root{
         padding: 0;
         margin: 0;
@@ -169,6 +167,11 @@ margin: 10vh;
         margin-left: 0;
         padding: 0;
         width: 375px;
+    }
+    @media(max-width: 320px){
+        #bird{
+        display: none;
+    }
     }
 }
 `
