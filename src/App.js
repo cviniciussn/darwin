@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './pages/Home/Home';
+import { createGlobalStyle } from 'styled-components';
+const GlobalStyle = createGlobalStyle`
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+width: 100vw;
+height: 220vh;
+
+
+background-color: #262626;
+color: #FCFCFC;
+font-family: 'Open Sans', sans-serif;
+min-width: 425px;
+
+overflow-x: hidden;
+}
+`
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Home></Home>
+    </>
   );
 }
 

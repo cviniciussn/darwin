@@ -1,0 +1,15 @@
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    max-width: fit-content !important;
+    width: fit-content !important;
+    overflow-y: none;
+    height: fit-content !important;
+}
+
+@media screen and (max-width:415px) {
+    .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+        padding: 0;
+        margin: 0;
+        width: 375px;
+    }
+    
+}
