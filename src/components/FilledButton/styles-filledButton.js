@@ -5,6 +5,7 @@ export const FilledButtonComponent = styled.button`
 width: 174px;
 height: 48px;
 
+
 display: flex;
 justify-content: center;
 align-items: center;
@@ -20,13 +21,16 @@ line-height: 32px;
 font-weight: 600;
 font-family: 'Open Sans', sans-serif;
 
+
+
 &:hover{
     transition: all .4s;
-    box-shadow: 0 0 5px 5px rgba(255,93,142, .5);
+    box-shadow: 0 0 20px 20px rgba(255,93,142, .5);
+    filter: brightness(150%);
 }
 
 &:not(:hover){
-    transition: all .4s;
+    transition: all .8s;
 }
 
 &:active{

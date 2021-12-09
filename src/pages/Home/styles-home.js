@@ -30,12 +30,13 @@ p{
     align-items: center;
     justify-content: center;
     gap: 10vh;
+    margin-bottom: 10vh;
 }
 
 	
     .logo{
         /* border: solid 1px red; */
-        min-width: 370px;
+        min-width: 220px;
         max-width: 370px;
         height: 460px;
         > img{
@@ -57,25 +58,13 @@ p{
         width: fit-content;
         display: flex;
         align-items: center;
-        gap: 30px
+        gap: 30px;
     }
 
 }
 
-.paragraph{
-    display: flex;
-		align-items: center;
-		justify-content: center;
-    flex-wrap: wrap;
-    width: 100vw;
-		min-width: 375px;
-		height: fit-content;
-		min-width: 425px;
-    padding: 10vh;
-
     .h1-wrapper{
-      display: block;
-			width: 70%;
+      display: flex;
       min-width: 425px;
       max-width: 100vw;
       font-size: 48px;
@@ -90,97 +79,152 @@ p{
       line-height: 24px;
       font-weight: 400;
       color: #b4b4b4;
-      padding: 20px;
+      padding-top: 20px;
 			width: 70%;
 
     }
 
     .presentation{
-        width: 100vw;
+        height: fit-content;
+        width: 80vw;
+        padding-left: 50px;
     }
-}
 
 .areas{
-    width: 100vw;
-		min-width: 425px;
+    width: 80vw;
+		//min-width: 425px;
     height: max-content;
     display: flex;
     flex-direction: row;
 		align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
     gap: 5vw;
     flex-wrap: wrap;
-
-
-
-
+    padding-left: 50px;
 }
 
-footer{
-	width: 100vw;
+footer{ 
+	width: 80vw;
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
-	padding-left: 10vh;
+	padding-left: 50px;
+  padding-bottom: 50px ;
 }
 
-@media screen and (max-width: 800px){
-  width: 90%;
-  padding: 0;
-  margin: 0;
 
-  body, html, main, .logo, .getToKnow, .paragraph, .presentation, .areas, .h1-wrapper, .paragraph-wrapper{
-    width: 375px;
-    margin-right: 0;
-    margin-left: 0;
-    padding: 0;
+@media screen and (max-width: 700px){
+
+  .main, html{
+    display: flex;
+    flex-direction: column;
     overflow-x: hidden;
-
+    width: 100vw;
   }
+
+  #intro{
+    width: 100vw;
+    height: max-content;
+    gap: 0 !important;
+    margin: 0;
+    padding: 0;
+  
   .logo{
-    width: 375px;
-      height: 375px;
-    >img{
-      width: 375px;
-      height: 375px;
+    width: 180px;
+    height: 240px !important;
+
+    img>{
+      width: 100%;
+      height: 240px;
     }
   }
-  .paragraph{
-    margin-top: 25vh;
-    width: 50%;
 
-    h1{
+  .getToKnow{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 344px;
+    height: fit-content;
+    padding: 0 20px 0 20px;
+    text-align: center;
+    //gap: 0 !important;
+
+    >h1{
+      text-align: center;
       font-size: 40px;
+      margin: 0 16px 0 16px;
+    }
+    >p{
+      width: 344px;
     }
   }
 
-  #0, #1, #2{
-padding: 0;
-  }
+  .button-wrapper{
+    display: flex;
+    justify-content: space-between;
 
+    button{
+      width: 150px;
+      height: 56px;
+    }
+  }
 }
 
-@media screen and (max-width: 375px){
-  .paragraph{
-    margin-top: 50vh;
-    width: 50%;
+.presentation{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 344px;
+  height: fit-content;
+  //padding: 0 20px 0 20px;
+  padding: 0;
+  text-align: flex-start;
 
-    h1{
-      font-size: 32px;
+.h1-wrapper{
+  width: 344px;
+  height: 160px;
+  
+  >h1{
+    width: 344px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.paragraph-wrapper{
+  >p{
+    font-size: 16px;
+    width: 344px;
+    line-height: 24px;
+  }  
+}
+}
+
+.areas{
+  width: 100vw;
+  height: fit-content;
+  padding: 10px;
+
+  p{
+    font-size: 16px;
+    width: 340px;
+    line-height: 24px;
+  }
+
+  #card1{
+    text-align: end;
+
+    #imgcard1{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
     }
   }
 }
 
-@media (width:320px){
-  .paragraph{
-    margin-top: 70vh;
-    width: 50%;
 
-    h1{
-      font-size: 32px;
-    }
-  }
+
+
 }
 
 `

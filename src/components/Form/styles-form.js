@@ -11,35 +11,34 @@ flex-direction: row;
 gap: 20px;
 align-self: center;
 justify-self: center;
-margin: 10vh;
+margin: 0;
+
 
 
 
 #bird{
     background-color: white;
     width: 50%;
-    height: 100%;
+    height: 70vh;
     flex-direction: column;
     padding: 15px;
-
-    
     position: relative;
 
 
 
     #div1{
-        width: 300px;
+        width: 327px;
         background-image: url(${bird});
         background-position-y: top;
-        height: 100px;
+        height: 130px;
     }
     #div2{
         margin-top: 2vh;
-        width: 300px;
+        width: 327px;
         background-image: url(${bird});
         background-position-y: 30%;
         background-position-x: 80%;
-        height: 100px;
+        height: 130px;
         margin-left: 30% ;
     }
 
@@ -50,7 +49,7 @@ margin: 10vh;
         display: flex;
         gap: 20px;
         #div3{
-            width: 300px;
+            width: 327px;
             height: 150px;
             background-image: url(${bird});
             background-position-y: 60%;
@@ -65,7 +64,7 @@ margin: 10vh;
 
             #entenda{
                 height: 36px;
-                width: 100px;
+                width: 130px;
             }
             #desenvolva{
                 width: 138px;
@@ -79,27 +78,32 @@ margin: 10vh;
     }
     #div4{
         margin-top: 2vh;
-        width: 300px;
+        width: 327px;
         background-image: url(${bird});
         background-position-x: right;
         background-position-y: bottom;
 
-        height: 100px;
+        height: 130px;
         margin-left: 40% ;
 
     }
 
     footer{
         display: flex;
+        width: 800px;
         flex-direction: column;
         height: fit-content;
+        position: relative;
 
         #socials-wrapper{
             padding: 10px;
+            margin-top: 30px;
             display: flex;
             align-self: flex-end;
             gap: 10px;
-
+            position: absolute;
+            left: 410px;
+            
             .social{
                 &:hover{
                     transform: scale(1.2);
@@ -109,6 +113,12 @@ margin: 10vh;
                     transition: all .5s;
                 }
             }
+
+            p{
+                font-size: 24px;
+                line-height: 32px;
+                font-weight: 600;
+            }
         }
     }
 
@@ -117,7 +127,7 @@ margin: 10vh;
 #form{
     width: 50%;
     height: 100%;
-    height: 650px;
+    height: fit-content;
 
     display: flex;
     flex-direction: column;
@@ -135,19 +145,20 @@ margin: 10vh;
         color: #737373;
     }
 
-    #form-header, #form-paragraph{
-        margin: 20px 0 20px 0;
-        width: 80%;
-        text-align: justify;
+    #form-header, #form-paragraph, #form-groups{
+        margin: 5px 0 5px 0;
+        width: 507px;
+        text-align: left;
 
     }
 
-    #form-groups{
-        width: 90%;
+    .form-wrapper{
+        display: flex;
+        justify-content: space-between;
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 700px){
     width: 100%;
     margin: 0;
     padding: 0;
@@ -173,7 +184,7 @@ margin: 10vh;
         width: 100%;
     }
     .MuiFormControl-root{
-        width: 90%;
+        width: 344px;
     }
     .MuiFormGroup-root, #name-email-wrapper{
         padding: 25px;

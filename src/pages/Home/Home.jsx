@@ -41,22 +41,18 @@ export default function Home() {
           </div>
         </div>
 
-
-
-        <div className="paragraph" ref={ref} >
-          <div className="presentation">
-            <div className="h1-wrapper">
-              <h1>
-                Tudo que sua organização precisa para se adequar ao mundo digital
-              </h1>
-            </div>
-            <div className="paragraph-wrapper">
-              <p>
-                Através da sua equipe de especialistas multidisciplinares,
-                a Darwin pode prover tudo que uma organização precisa para se
-                adequar ao novo panorama do mundo digital.
-              </p>
-            </div>
+        <div className="presentation" ref={ref}>
+          <div className="h1-wrapper">
+            <h1>
+              Tudo que sua organização precisa para se adequar ao mundo digital
+            </h1>
+          </div>
+          <div className="paragraph-wrapper">
+            <p>
+              Através da sua equipe de especialistas multidisciplinares,
+              a Darwin pode prover tudo que uma organização precisa para se
+              adequar ao novo panorama do mundo digital.
+            </p>
           </div>
         </div>
 
@@ -65,7 +61,7 @@ export default function Home() {
             (card, index) => {
               return (
                 <AreaCard
-                  id={index}
+                  id={`card${index}`}
                   key={index}
                   img={card.img}
                   header={card.header}

@@ -12,6 +12,12 @@ flex-direction: column;
 justify-content: space-between;
 padding-top: 10vh;
 
+.img-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 img{
     width: 158px;
     height: 158px;

@@ -6,7 +6,7 @@ export default function EmptyButton(props) {
 
     return (
         <EmptyButtonComponent>
-            <h4>{props.text}</h4>
+            <span>{props.text}</span>
         </EmptyButtonComponent>
     )
 }

@@ -46,6 +46,9 @@ export default function FormComponent() {
                             <img src={fb} alt="facebook" id="face" className='social' />
                         </a>
 
+                        <div>
+                            <p>@darwindigital</p>
+                        </div>
                     </div>
                 </footer>
             </div>
@@ -57,20 +60,22 @@ export default function FormComponent() {
                     </h1>
                 </div>
                 <div id="form-paragraph">
-                    <p>                    Sit morbi iaculis vitae tempor varius. In vel cras faucibus malesuada lacus luctus proin augue. Viverra consequat cursus enim enim et, nunc vel dignissim.
-                    </p>                </div>
+                    <p> Sit morbi iaculis vitae tempor varius. In vel cras faucibus malesuada lacus luctus proin augue. Viverra consequat cursus enim enim et, nunc vel dignissim.
+                    </p>
+                </div>
                 <div id="form-groups">
 
-                    <FormGroup sx={{ display: "flex", flexDirection: "column", gap: "20px", marginTop: "5px" }}>
-                        <TextField id="name" label="Nome" variant="outlined" required />
-                        <TextField id="email" label="E-mail" variant="outlined" />
+                    <FormGroup id='forms' sx={{ display: "flex", flexDirection: "column", gap: "20px", marginTop: "5px" }}>
+                        <div className="form-wrapper">
+                            <TextField id="name" label="Nome" variant="outlined" required />
+                            <TextField id="email" label="E-mail" variant="outlined" />
+                        </div>
                         <TextField id="subject" label="Assunto. Ex: orçamento" variant="outlined" required />
-                        <TextField multiline id="" label="Mensagem" variant="outlined" required />
+                        <TextField multiline rows={4} id="message" label="Mensagem" variant="outlined" required />
                         <div onClick={() => { alert("As your brand new Junior Developer, I'm looking forward to be part of this team!"); (window.location.href = '/') }}
                         >
                             <FilledButton text='Enviar' type='submit'
                             ></FilledButton>
-
                         </div>
                     </FormGroup>
                 </div>

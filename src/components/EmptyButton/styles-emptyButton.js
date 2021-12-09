@@ -26,11 +26,17 @@ font-family: 'Open Sans', sans-serif;
 
 &:hover{
     transition: all .4s;
-    box-shadow: 0 0 5px 5px rgba(255,93,142, .5);
+    box-shadow: 0 0 20px 20px rgba(255,93,142, .5);
+    background: linear-gradient(90deg, rgba(255,93,142,1) 7%, rgba(178,81,255,1) 92%);
+    filter: brightness(110%);
+
+    span{
+    -webkit-text-fill-color: white;
+    }
 }
 
 &:not(:hover){
-    transition: all .4s;
+    transition: all .8s;
 }
 
 &:active{
@@ -41,11 +47,11 @@ font-family: 'Open Sans', sans-serif;
     filter: brightness(50%);
 }
 
-h4 {
+span {
     font-size: 24px;
-  background: linear-gradient(90deg, rgba(255,93,142,1) 7%, rgba(178,81,255,1) 92%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, rgba(255,93,142,1) 7%, rgba(178,81,255,1) 92%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
