@@ -19,6 +19,15 @@
 
 .MuiPaper-root svg:hover {
   transform: scaleY(50%);
+  transition: all 0.8s;
+}
+
+.MuiPaper-root svg:not(:hover) {
+  transition: all 0.8s;
+}
+
+.MuiPaper-root svg:hover {
+  transform: scaleY(50%);
   transition: all 0.5s;
 }
 
