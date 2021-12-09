@@ -13,8 +13,17 @@
   height: fit-content;
 }
 .MuiPaper-root svg {
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
+}
+
+.MuiPaper-root svg:hover {
+  transform: scaleY(50%);
+  transition: all 0.5s;
+}
+
+.MuiPaper-root svg:not(:hover) {
+  transition: all 0.5s;
 }
 
 @media screen and (max-width: 700px) {

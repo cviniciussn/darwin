@@ -28,7 +28,7 @@ overflow-x: hidden;
 function App() {
   return (
     <>
-      {console.log('task1.1')}
+      {console.log('task1.2')}
       <GlobalStyle />
       <Home></Home>
     </>
