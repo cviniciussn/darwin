@@ -44,7 +44,7 @@ export default function Home() {
         <div className="presentation" ref={ref}>
           <div className="h1-wrapper">
             <h1>
-              Tudo que sua organização precisa <br></br> para se adequar ao mundo digital
+              Tudo que sua organização precisa para se adequar ao mundo digital
             </h1>
           </div>
           <div className="paragraph-wrapper">
