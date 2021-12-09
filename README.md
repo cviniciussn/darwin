@@ -13,9 +13,13 @@
 [Darwin Agency](https://master.d1ej7hkoc70ba2.amplifyapp.com/)
 
 # Application screenshots
-![home](https://user-images.githubusercontent.com/5132840/144738279-48f92a87-d307-41ac-941e-3fec569e7986.PNG)
-![saiba-mais](https://user-images.githubusercontent.com/5132840/144738283-b7e48b8d-c847-431a-b121-79910a9083c0.PNG)
-![image](https://user-images.githubusercontent.com/5132840/144738315-12fb9893-681c-437f-9168-f417be4039ad.png)
-![mobile-modal](https://user-images.githubusercontent.com/5132840/144750659-d2204fc6-2b5a-446c-a0d0-cbf6a4f6ac3b.PNG)
+![home](https://user-images.githubusercontent.com/5132840/145372241-5896774d-8b92-4692-a0f8-4b348e6ad30c.PNG)
+![home2](https://user-images.githubusercontent.com/5132840/145372261-acda67a9-10af-49a1-9139-a3e5b07e5ce0.png)
+![home3](https://user-images.githubusercontent.com/5132840/145372274-cca18f5d-b329-41bb-999b-3f715ade1aa3.png)
+![saiba-mais](https://user-images.githubusercontent.com/5132840/145372289-698ceade-4004-4648-be97-a19456cf8125.PNG)
+![modal](https://user-images.githubusercontent.com/5132840/145372327-490a75e4-f794-479e-a123-e4563fe9e7d5.PNG)
+![mobile1](https://user-images.githubusercontent.com/5132840/145372303-0383cffc-bb4f-4619-b3ef-3e84b274943e.PNG)
+![mobile2](https://user-images.githubusercontent.com/5132840/145372309-272fe5cb-1899-4518-a8bb-e6af51f5ef86.PNG)
+
 
 
