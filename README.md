@@ -10,7 +10,7 @@
 * ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) 
 
 ## Link
-[Darwin Agency](https://master.d1ej7hkoc70ba2.amplifyapp.com/)
+[Darwin Agency](https://master.d39arnmr6fzxse.amplifyapp.com/)
 
 # Application screenshots
 ![home](https://user-images.githubusercontent.com/5132840/145372241-5896774d-8b92-4692-a0f8-4b348e6ad30c.PNG)
