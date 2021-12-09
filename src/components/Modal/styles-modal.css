@@ -13,6 +13,7 @@
   height: fit-content;
 }
 .MuiPaper-root svg {
+<<<<<<< HEAD
   height: 60px;
   width: 60px;
 }
@@ -34,6 +35,10 @@
 
 .MuiPaper-root svg:not(:hover) {
   transition: all 0.5s;
+=======
+  height: 40px;
+  width: 40px;
+>>>>>>> parent of 699928a (Update styles-modal.css)
 }
 
 .MuiPaper-root svg:hover {
