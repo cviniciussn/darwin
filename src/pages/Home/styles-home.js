@@ -87,7 +87,10 @@ p{
     .presentation{
         height: fit-content;
         width: 80vw;
-        padding-left: 50px;
+        //padding-left: 50px;
+        h1-wrapper {
+          width: 60vw;
+        }
     }
 
 .areas{
@@ -112,6 +115,7 @@ footer{
 	padding-left: 50px;
   padding-bottom: 50px ;
 }
+
 
 
 @media screen and (max-width: 700px){
@@ -199,12 +203,11 @@ footer{
   }  
 }
 }
-
+y
 .areas{
   width: 100vw;
   height: fit-content;
   padding: 10px;
-  justify-content: center;
 
   p{
     font-size: 16px;
@@ -223,11 +226,7 @@ footer{
   }
 }
 
-footer{
-  align-items: center;
-  justify-content: center;
-  padding: 0 0 50px;
-}
+
 
 
 }

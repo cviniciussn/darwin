@@ -36,13 +36,13 @@ export default function FormComponent() {
                 <footer>
                     <div id="socials-wrapper">
 
-                        <a href='https://linkedin.com/in/cviniciussn' target='_blank'>
+                        <a href='https://linkedin.com/in/cviniciussn' target='_blank' rel='noreferrer'>
                             <img src={linkedin} alt="linkedin" id="linkedin" className='social' />
                         </a>
-                        <a href='http://instagram.com' target='_blank'>
+                        <a href='http://instagram.com' target='_blank' rel='noreferrer'>
                             <img src={insta} alt="instagram" id="insta" className='social' />
                         </a>
-                        <a href='http://fb.com' target='_blank'>
+                        <a href='http://fb.com' target='_blank' rel='noreferrer'>
                             <img src={fb} alt="facebook" id="face" className='social' />
                         </a>
 
