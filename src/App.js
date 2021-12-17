@@ -28,13 +28,6 @@ overflow-x: hidden;
 function App() {
   return (
     <>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      {console.log('task1.2')}
->>>>>>> parent of 7e5b310 (Revert "correction 1.2")
-=======
->>>>>>> parent of 009f8a3 (task1.1)
       <GlobalStyle />
       <Home></Home>
     </>
